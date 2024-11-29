@@ -3,50 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
     <title>Chicken Fried Chicken</title>
 </head>
 <body>
-    <h1>Chicken Fried Chicken</h1>
-    <img src="./img/chicken-fried.jpg" alt="Chicken Fried Chicken" height="350" width="350">
+    <div class="container" id="container">
+        <div class="recipe-card">
+            <img 
+               src="./img/chicken-fried.jpg" 
+               alt="Chicken Fried Chicken">
 
-    <h3 class="description-title">Description</h3>
-    <p class="description">Fry chicken, turning frequently, until golden brown and juices run clear, 15 to 20 minutes.
-        A fun chicken recipe the kids can help prepare. <br>
-        They love crushing the crackers. It does not matter <br>
-        if the measurements aren't perfect, just wing it!
-    </p>
+            <div class="recipe-content">
+                <h1 class="title">Chicken Fried Chicken</h1>
+                <h3 class="description-title title-margin">Description</h3>
+                <p class="description">Fry chicken, turning frequently, until golden brown and juices run clear, 15 to 20 minutes.
+                    A fun chicken recipe the kids can help prepare. <br>
+                    They love crushing the crackers. It does not matter <br>
+                    if the measurements aren't perfect, just wing it!
+                </p>
 
-    <h3 class="ingredients-title">Ingredients</h3>
-    <ul class="ingredients-list">
-        <li>30 saltine crackers</li>
-        <li>2 tablespoons all-purpose flour</li>
-        <li>2 tablespoons dry potato flakes</li>
-        <li>1 teaspoon seasoned salt </li>
-        <li>1/2 teaspoon ground black pepper</li>
-        <li>1 egg</li>
-        <li>6 skinless, boneless chicken breast halves</li>
-        <li>2 cups vegetable oil for tying</li>
-    </ul>
+                <section class="recipe-info">
+                    <h3 class="ingredients-title title-margin">Ingredients</h3>
+                    <ul class="ingredients-list">
+                        <li>30 saltine crackers</li>
+                        <li>2 tablespoons all-purpose flour</li>
+                        <li>2 tablespoons dry potato flakes</li>
+                        <li>1 teaspoon seasoned salt </li>
+                        <li>1/2 teaspoon ground black pepper</li>
+                        <li>1 egg</li>
+                        <li>6 skinless, boneless chicken breast halves</li>
+                        <li>2 cups vegetable oil for tying</li>
+                    </ul>
+                
+                    <h3 class="steps-title title-margin">Steps</h3>
+                    <ol class="steps-list">
+                        <li>
+                            Place crackers in a large resealable plastic bag;
+                            seal bag and crush crackers with a rolling pin until
+                            they are coarse crumbs. Add the flour, potato flakes,
+                            seasoned salt, and pepper and mix well.
+                        </li>
+                        <li>
+                            Beat egg in a shallow dish or bowl. One by one,
+                            dredge chicken pieces in egg, then place in bag with crumb mixture.
+                            Seal bag and shake to coat.
+                        </li>
+                        <li>Heat oil in a deep-fryer or large saucepan to 350 degrees F (175 degrees C).</li>
+                        <li>
+                            Fry chicken, turning frequently, until golden brown and juices run clear,
+                            15 to 20 minutes.
+                        </li>
+                    </ol>
+                </section class="recipe-info">
+            </div>  
 
-    <h3 class="steps-title">Steps</h3>
-    <ol class="steps-list">
-        <li>
-            Place crackers in a large resealable plastic bag;
-            seal bag and crush crackers with a rolling pin until
-            they are coarse crumbs. Add the flour, potato flakes,
-            seasoned salt, and pepper and mix well.
-        </li>
-        <li>
-            Beat egg in a shallow dish or bowl. One by one,
-            dredge chicken pieces in egg, then place in bag with crumb mixture.
-            Seal bag and shake to coat.
-        </li>
-        <li>Heat oil in a deep-fryer or large saucepan to 350 degrees F (175 degrees C).</li>
-        <li>
-            Fry chicken, turning frequently, until golden brown and juices run clear,
-            15 to 20 minutes.
-        </li>
-    </ol>
-   
+            <button class="view-recipe-link">
+                <a href="#" >View recipe</a> 
+            </button>
+        </div>       
+    </div>
 </body>
 </html>
